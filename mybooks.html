@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>My Books</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<!-- <li><a href="index.html">Add Books</a></li> -->
+				<li><a href="/">Add Books</a></li>
+				<!-- using href="/" works as the root html -->
+				<li id="showbooks">See my books</li>
+
+			</ul>
+		</nav>
+
+    <table>
+      <thead>
+        <td>Book ID</td>
+        <td>Book ISBN</td>
+        <td>Book Name</td>
+        <!-- if using image of url, comment out url below and uncomment this instead <td>Book Image</td> -->
+        <td>Book URL</td>
+        <td>Book # of Pages</td>
+      </thead>
+
+      <tbody>
+        <tr>
+        <td id="bookID"></td>
+        <td id="bookISBN"></td>
+        <td id="bookName"></td>
+        <!-- if using image <td><img id="bookImgUrl" src=""></td> -->
+        <td id="bookImgUrl"></td>
+        <td id="bookNumPages"></td>
+
+        </tr>
+      </tbody>
+    </table>
+		<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
