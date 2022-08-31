@@ -1,0 +1,14 @@
+{
+  "name": "mybooks-api-template",
+  "version": "1.0.0",
+  "description": "Finds and stores books",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "iacodes",
+  "license": "ISC",
+  "dependencies": {
+    "figlet": "^1.5.2"
+  }
+}
